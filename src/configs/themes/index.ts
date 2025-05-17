@@ -7,26 +7,23 @@ export const theme: MantineThemeOverride = createTheme({
   components: {},
   colors: {
     primary: [
-      '#e2f5ff',
-      '#cbe6ff',
-      '#99caff',
-      '#62acff',
-      '#3693ff',
-      '#1883ff',
-      '#007bff',
-      '#0069e5',
-      '#005dce',
-      '#0050b7',
+      '#e4fefb',
+      '#d5f7f3',
+      '#aeede5',
+      '#83e3d7',
+      '#60dacb',
+      '#4ad4c3',
+      '#3bd2c0',
+      '#2bc2b0',
+      '#17a596',
+      '#009081',
     ],
   },
 })
 
 // https://mantine.dev/styles/css-variables/#css-variables-resolver
-export const resolver: CSSVariablesResolver = (theme) => ({
-  variables: {
-    '--hover-background-color': theme.colors.primary[0],
-    '--border-color': theme.colors.quaternary[1],
-  },
+export const resolver: CSSVariablesResolver = () => ({
+  variables: {},
   light: {},
   dark: {},
 })

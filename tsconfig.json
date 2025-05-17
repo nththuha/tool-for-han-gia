@@ -2,7 +2,7 @@
   "compilerOptions": {
     "types": ["vite/client"],
     "lib": ["es6", "dom", "dom.iterable"],
-    "target": "es2015",
+    "target": "es2018",
     "baseUrl": ".",
     "allowJs": true,
     "esModuleInterop": true,
